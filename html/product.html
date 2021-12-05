@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="containerr">
+            <div class="menu_info">
+                <div class="menu_info_left">
+                    <div class="phone">
+                        <i class="fa fa-phone fa-rotate-90" aria-hidden="true"></i>
+                        <a href="tel: +78006567442">8 (800) 656-74-42</a>
+                        <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                    </div>
+                    <div class="info_nav">
+                        <ul>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Условия покупки</a></li>
+                            <li><a href="#">О магазине</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="menu_info_right">
+                    <a href="#" class="px-3"><a href="#" class="px-3"><i class="fab fa-instagram"></i></a></a>
+                </div>
+            </div>
+
+            <div class="menu_main">
+                <div class="menu_main_left">
+                    <div class="main_nav_left">
+                        <ul>
+                            <li><a class="catalog_btn">Каталог</a></li>
+                            <li><a href="#popular">Популярное</a></li>
+                            <li><a href="#clolletion">Коллекции</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="menu_main_right">
+                    <!-- <div class="main_nav_right">
+                        <ul>
+                            <li><div class="rotate"><a href="#">Женьщины</a></div></li>
+                            <li><div class="rotate"><a href="#">Дети</a></div></li>
+                            <li><div class="rotate"><a href="#">Мужчины</a></div></li>
+                        </ul>
+                    </div> -->
+                    <div class="main_menu_icon">
+                        <a><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-heart" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="burger_container">
+                    <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
+                    <label for="checkbox4">
+                        <div class="hamburger hamburger4">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                            <span class="bar bar4"></span>
+                            <span class="bar bar5"></span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile_menu_container">
+        <div class="mobile_menu">
+            <ul>
+                <li><a class="catalog_btn">Каталог</a></li>
+                <li>Популярное</li>
+                <li>Коллекции</li>
+                <li>Корзина</li>
+            </ul>
+            <h2>Мы в инстаграм: <i class="fab fa-instagram"></i></h2>
+        </div>
+    </div>
+
+    <div class="catalog_container_off">
+        <div class="catalog_content_container">
+            <div class="close_mobil_catalog">
+                <i class="fa fa-times x-close" aria-hidden="true"></i>
+            </div>
+            <div class="catalog_menu">
+                <div class="catalog_menu_clothes"><!--1-->
+                    <a class="male_open"><h2>Мужская</h2></a>
+                    <ul class="male">
+                        <li><a href="#">Костюмы</a></li>
+                        <li><a href="#">Футболки</a></li>
+                        <li><a href="#">Дождевики</a></li>
+                        <li><a href="#">Брюки</a></li>
+                        <li><a href="#">Халаты</a></li>
+                        <li><a href="#">Нижнее бельё</a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog_menu_clothes"><!--2-->
+                    <a  class="female_open"><h2>Женская</h2></a>
+                    <ul class="female">
+                        <li><a href="#">Костюмы</a></li>
+                        <li><a href="#">Футболки</a></li>
+                        <li><a href="#">Дождевики</a></li>
+                        <li><a href="#">Брюки</a></li>
+                        <li><a href="#">Халаты</a></li>
+                        <li><a href="#">Нижнее бельё</a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog_menu_clothes"><!--3-->
+                    <a class="child_open"><h2>Детская</h2></a>
+                    <ul class="child">
+                        <li><a href="#">Костюмы</a></li>
+                        <li><a href="#">Футболки</a></li>
+                        <li><a href="#">Дождевики</a></li>
+                        <li><a href="#">Брюки</a></li>
+                        <li><a href="#">Халаты</a></li>
+                        <li><a href="#">Нижнее бельё</a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog_menu_clothes"><!--4-->
+                    <a class="special_open"><h2>Спец одежда</h2></a>
+                    <ul class="special">
+                        <li><a href="#">С принтом</a></li>
+                        <li><a href="#">Без принта</a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog_menu_clothes"><!--5-->
+                    <a class="sport_open"><h2>Спортивная</h2></a>
+                    <ul class="sport">
+                        <li><a href="#">Костюмы</a></li>
+                        <li><a href="#">Футболки</a></li>
+                        <li><a href="#">Брюки</a></li>
+                        <li><a href="#">Нижнее бельё</a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog_menu_clothes"><!--5-->
+                    <a class="home_open"><h2>Для дома</h2></a>
+                    <ul class="home">
+                        <li><a href="#">постельное белье</a></li>
+                        <li><a href="#">Покровы, пледы</a></li>
+                        <li><a href="#">Фартуки</a></li>
+                        <li><a href="#">Одеяла и подушки</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="catalog_img_container">
+                <div class="catalog_img"><img src="../img/Rectangle_105.png"></div>
+                <div class="catalog_img"><img src="../img/Rectangle_106.png"></div>
+                <div class="catalog_img"><img src="../img/Rectangle_107.png"></div>
+                <div class="catalog_img"><img src="../img/Rectangle_108.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product_page_main_wraper">
+        <div class="product_page_main_container">
+            <div class="product_page_pages_lincs">
+                <a href="#">Главная</a><img src="../img/arrow_18.png" alt="">
+                <a href="#">Платья</a><img src="../img/arrow_18.png" alt="">
+                <a class="active_link">Платье с рисунком</a>
+            </div>
+            <h2 class="product_page_main_header">Платье с рисунком</h2>
+            <div class="product_page_main_content_container">
+                <div class="product_page_main_content_container_img">
+                    <div class="product_page_main_content_container_img_column">
+                        <img src="../img/Rectangle_91.png" alt="" class="less_img_content_1">
+                        <img src="../img/Rectangle_91.png" alt="" class="less_img_content_2">
+                    </div>
+                    <div class="product_page_main_content_container_img_row">
+                        <img src="../img/Rectangle_90.png" alt="" class="main_img_content">
+                    </div>
+                </div>
+                
+                <div class="swiper-container product-slider-mobile mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../img/Rectangle_68.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/Rectangle_68.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/Rectangle_68.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                
+                <div class="product_page_main_content_container_price">
+                    <div class="product_price_container">
+                        <h2 class="product_price">3500</h2>
+                        <p>Мин. кол-во <br> для заказа 1шт.</p>
+                    </div>
+
+                    <div class="quantity-block">
+                        <button class="quantity-arrow-minus"> <i class="fa fa-angle-left" aria-hidden="true"></i> </button>
+                        <input class="quantity-num" type="number" value="1" />
+                        <button class="quantity-arrow-plus"> <i class="fa fa-angle-right" aria-hidden="true"></i> </button>
+                    </div>
+
+                    <div class="product_basket_and_favorites">
+                        <a href="#" class="product_basket">В корзину</a>
+                        <a href="#" class="product_favorites">Избранное</a>
+                    </div>
+
+                    <div class="product_characteristics">
+                        <h2>Характеристики</h2>
+                        <div class="product_characteristics_table">
+                            <div class="product_characteristics_table_name">
+                                <p>Размеры</p>
+                                <p>Состав</p>
+                                <p>Цвета</p>
+                            </div>
+                            <div class="product_characteristics_table_character">
+                                <ul>
+                                    <li>40</li>
+                                    <li>42</li>
+                                    <li>44</li>
+                                    <li>46</li>
+                                    <li class="grey_2">48</li>
+                                    <li class="grey_2">50</li>
+                                </ul>
+                                <p>Хлопок 100%</p>
+                                <div class="product_cercles">
+                                    <div class="color_1"></div>
+                                    <div class="color_2"></div>
+                                    <div class="color_3"></div>
+                                    <div class="color_4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="product_offers_header">Вам так же может понравиться</h2>
+                <div class="product_offers">
+                    <div class="product_offers_img">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_98.png" alt="">
+                    </div>
+                    <div class="product_offers_img">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_98.png" alt="">
+                    </div>
+                    <div class="product_offers_img">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_98.png" alt="">
+                    </div>
+                    <div class="product_offers_img">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_98.png" alt="">
+                    </div>
+                </div>
+                <div class="product_offers_mobile">
+                    <div class="product_offers_img_mobile">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_71.png" alt="">
+                    </div>
+                    <div class="product_offers_img_mobile">
+                        <h2 class="product_offers_img_description">Розовое платье</h2>
+                        <img src="../img/Rectangle_71.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_menu">
+                <div class="footer_logo">
+                    <div class="footer_logo_img"><img src="../img/LOGO_PNG.png" alt=""></div>
+                    <div class="footer_logo_description">
+                        <p>Все права защищены</p>
+                        <p>2021 год</p>
+                    </div>
+                </div>
+                <div class="footer_about">
+                    <h2><a>О компании</a></h2>
+
+                    <ul class="daun">
+                        <li>О нас</li>
+                        <li>Сертификаты</li>
+                        <li>Реквизиты</li>
+                        <li>Вакансии</li>
+                    </ul> 
+                
+                </div>
+
+                <div class="footer_info">
+                    <h2>Информация</h2>
+                    <ul>
+                        <li>Доставка</li>
+                        <li>Оплата</li>
+                        <li>Цены</li>
+                    </ul>
+                </div>
+
+                <div class="footer_contact">
+                    <h2>Контакты</h2>
+                    <ul>
+                        <li id="foot_help">
+                            <div>
+                                <i class="fa fa-phone fa-rotate-90" aria-hidden="true"></i>
+                            </div>
+                            <div class="footer_phone">
+                                <a href="tel: +78006567442">8 (800) 656-74-42</a>
+                                <p>Время работы с 8:00 до 19:00</p>
+                            </div>
+                        </li>
+                        <li id="foot_help">
+                            <div>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="footer_phone">
+                                Иваново, ул.Лежневская 171
+                                <p>1 этаж, офис2</p>
+                            </div>
+                        </li>
+                        <li id="foot_help">
+                            <div class="footer_mail">
+                                <a href="example@example.ru">example@example.ru</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
