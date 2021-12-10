@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Регистрация</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <input type="text" placeholder="Ведите имя" name="name" required>
+                <input type="text" placeholder="Введите еmail" name="email" required>
+                <input type="text" placeholder="Введите мессенджер" name="messenger" required>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn closes" data-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn sendd">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="prog_container">
+    <div class="top_container">
+        <div class="top_content_container">
+            <div class="top_content_container_text">
+                <h2>
+                    Стань Frontend разработчиком <br> не выходя из дома
+                </h2>
+                <ul>
+                    <li>освой одну из самых востребованных IT-профессий</li>
+                    <li>Изучите языки JavaScript и PHP - создай свои первые сайты</li>
+                    <li>Приступите сразу к работе после прохождения курса</li>
+                </ul>
+            </div>
+            <div class="top_content_container_baner">
+                <div class="top_content_baner">
+                    <div class="price">
+                        <h2>-20%</h2>
+                        <p>Весь месяц</p>
+                    </div>
+                    <div class="prog_text">
+                        <h2>Горячее лето</h2>
+                        <p>Проведи лето с пользой. Скидка уже включена в стоймость</p>
+                    </div>
+                    <a href="#bui_kurs" class="buy_link">Купить курс</a>
+                </div>
+            </div>
+        </div>
+        <img src="img/img1.png" alt="">
+    </div>
+    <div class="midle_container">
+        <div class="midel_first_header">
+            <h2>Кому подойдёт этот курс</h2>
+        </div>
+
+        <div class="midle_first_content">
+            <div class="midle_first_content">
+                <img src="img/Vector1.png" alt="">
+                <h2>Новичкам</h2>
+                <p>Если ты только начинаешь изучать программирование и у тебя <br> мало знаний, то этот курс специально для тебя.</p>
+            </div>
+            <div class="midle_first_content">
+                <img src="img/Vector2.png" alt="" id="bad_img">
+                <h2>Для самых занятых</h2>
+                <p>Приступайте к обучению, когда вам именно удобно. Все записи <br> остаются у вас на всегда.</p>
+            </div>
+            <div class="midle_first_content">
+                <img src="img/Vector3.png" alt="">
+                <h2>IT-специалистам</h2>
+                <p>Вы хотите узнать больше о веб-разработке, но не знаете с чего <br> начать? Этот курс подойдёт идеально для вас.</p>
+            </div>
+            <div class="midle_first_content">
+                <img src="img/Vector4.png" alt="">
+                <h2>Начинающим разработчикам</h2>
+                <p>Прокачайте свои знания в работе с самыми популярными языками <br> программирования.</p>
+            </div>
+        </div>
+
+        <div class="midel_second_header">
+            <h2 id="bui_kurs">Варианты обучения</h2>
+        </div>
+        <div class="midle_second_content">
+            <div class="midle_second_content">
+                <h2>Самостоятельный формат</h2>
+                <div class="second_text">
+                    <p>Полный доступ к урокам</p>
+                    <p>15 работ в портфолио</p>
+                    <p>Доступ навсегда к курсу</p>
+                </div>
+                <h3>500 руб.</h3>
+                <a class="btn midle_buy_link" data-toggle="modal" data-target="#exampleModalCenter">Купить курс</a>
+            </div>
+
+            <div class="midle_second_content">
+                <h2>Групповой формат</h2>
+                <div class="second_text">
+                    <p>Все что и в самостоятельном формате</p>
+                    <p>Техническая поддержка</p>
+                    <p>Групповые чаты</p>
+                    <p>Проверка ДЗ</p>
+                </div>
+                <h3>1500 руб.</h3>
+                <a class="btn midle_buy_link" data-toggle="modal" data-target="#exampleModalCenter">Купить курс</a>
+            </div>
+
+            <div class="midle_second_content">
+                <h2>Индивидуальный формат</h2>
+                <div class="second_text">
+                    <p>Возможности двух предыдущих форматов</p>
+                    <p>Личный чат с преподователем</p>
+                    <p>Обратная связь по ДЗ</p>
+                    <p>Техническая поддержка от преподавателя</p>
+                </div>
+                <h3>2500 руб.</h3>
+                <a class="btn midle_buy_link" data-toggle="modal" data-target="#exampleModalCenter">Купить курс</a>
+                
+            </div>
+        </div>
+
+        <div class="midel_third_header">
+            <h2>Инструменты, которые вы освоите</h2>
+        </div>
+        <div class="midle_third_content">
+            <div class="midle_circle"><img src="img/html_logo.png" alt=""></div>
+            <div class="midle_circle"><img src="img/css_logo.png" alt=""></div>
+            <div class="midle_circle"><img src="img/php_logo.png" alt=""></div>
+            <div class="midle_circle"><img src="img/js_logo.png" alt=""></div>
+            <div class="midle_circle"><img src="img/xml_logo.png" alt=""></div>
+            <div class="midle_circle"><img src="img/atom.png" alt="" id="colored_vector"></div>
+            <div class="midle_circle"><img src="img/cat_logo.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="end_container">
+        <div class="end_first_container">
+            <div class="end_first_header">
+                <h2>Итоги обучения</h2>
+            </div>
+
+            <div class="end_first_content">
+                <div class="end_first_content_text">
+                    <h2>Вы соберёте своё портфолио</h2>
+                    <p>У вас появится портфолио, которо поможет вам в поисках первых клиентов.</p>
+                </div>
+
+                <div class="end_first_content_text">
+                    <h2>Получите свой первый багаж опыта</h2>
+                    <p>После прохождения курса, вы сможете смело работать в команде и решать стандартные задачи.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="end_second_container">
+            <div class="end_second_content">
+                <h2>Осталось только выбрать формат занятий, <br> который вам удобен и приступить к уроками</h2>
+                <a href="#bui_kurs" class="end_link">Купить курс</a>
+            </div>
+        </div>
+
+        <div class="end_third_container">
+            <div class="end_third_header">
+                <h2>Связаться с нами</h2>
+            </div>
+
+            <div class="end_linls">
+                <a href="mailto:Example@mail.ru">Example@mail.ru</a>
+                <a href="tel:+78142332211">+7 (814) 233-22-11</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
